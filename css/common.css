@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+/* =======================================
+
+    CommonElements
+
+======================================= */
+body {
+    font-size: 100%;
+    line-height: 160%;
+    font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "ＭＳ Ｐゴシック", "MS P Gothic", Verdana, Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: center;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+a:link { text-decoration:nderline; color: #a2d7dd;}
+a:visited { text-decoration:nderline; color: #a2d7dd;}
+a:active { text-decoration:nderline; color: #a2d7dd;}
+a:hover { text-decoration:none; color: #a2d7dd;}
+
+p {
+    padding: 0 0 30px 0;
+}
+
+h1 {
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    width: 100%;
+    background: #824880;
+    color: #e7e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+}
+h3 {
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    color: #000;
+    text-shadow: 2px 2px 1px #ffffff;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+}
+h2#footer {
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    background-color: rgba( 215, 0, 53, 0.55 );
+    color: #ffffff;
+    width: 100%;
+    font-size: 12px;
+    position: absolute;
+}
+
+/* #container
+--------------------------- */
+#container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* .stageBase
+--------------------------- */
+.stageBase {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.stageBase .fieldWrap {
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+#stage1 {
+    background-size: cover;
+    background-image: url("../images/bg_001.jpg")
+}
+#stage2 {
+    background-size: cover;
+    background-image: url("../images/bg_002.jpg")
+}
+#stage3 {
+    background-size: cover;
+    background-image: url("../images/bg_003.jpg")
+}
+
+
+
+/* .stageSlide
+--------------------------- */
+.stageSlide {
+    position: relative;
+    overflow: hidden;
+    visibility: hidden;
+}
+.stageSlide .slideWrap {
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+}
+.stageSlide .slideWrap:before,
+.stageSlide .slideWrap:after {
+    content: " ";
+    display: table;
+}
+.stageSlide .slideWrap:after {clear: both;}
+.stageSlide .slideWrap {*zoom: 1;}
+
+.stageSlide .slidePanel {
+    float: left;
+    overflow: hidden;
+}
+
+.stageSlide .slideNav {
+    bottom: 70px;
+    left: 0;
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+}
+.stageSlide .slideNav a {
+    margin: 0 5px;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../images/nav.png) no-repeat center center;
+    display: inline-block;
+    overflow: hidden;
+}
+.stageSlide .slideNav a.pnActive {
+    background: transparent url(../images/nav_acv.png) no-repeat center center;
+}
+
+/* #pageNav
+--------------------------- */
+#pageNav {
+    top: 0;
+    right: 25px;
+    width: 15px;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+}
+#pageNav ul {
+    width: 15px;
+    display: block;
+}
+#pageNav ul li {
+    padding-bottom: 5px;
+    width: 32px;
+    height: 32px;
+    display: block;
+    overflow: hidden;
+}
+#pageNav ul li a {
+    width: 32px;
+    height: 32px;
+    background: transparent url(../images/nav.png) no-repeat center center;
+    display: block;
+}
+#pageNav ul li.activeStage a {
+    background: transparent url(../images/nav_acv.png) no-repeat center center;
+}
+
+/* #pageDown
+--------------------------- */
+#pageDown {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    overflow: hidden;
+    z-index: 3;
+}
+#pageDown a {
+    margin: 0 auto;
+    width: 32px;
+    height: 32px;
+    background: transparent url(../images/next_arw.png) no-repeat center center;
+    display: block;
+}
+
