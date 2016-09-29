@@ -82,14 +82,17 @@ h2#footer {
 }
 #stage1 {
     background-size: cover;
+    background-position: center;
     background-image: url("../images/bg_001.jpg")
 }
 #stage2 {
     background-size: cover;
+    background-position: center;
     background-image: url("../images/bg_002.jpg")
 }
 #stage3 {
     background-size: cover;
+    background-position: center;
     background-image: url("../images/bg_003.jpg")
 }
 
