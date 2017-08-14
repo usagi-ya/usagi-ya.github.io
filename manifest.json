@@ -1,0 +1,10 @@
+{
+  "lang": "ja",
+  "name": "USAGI-YA",
+  "short_name": "USAGI-YA",
+  "icons": [
+    {"src": "./images/apple-touch-icon.png", "sizes": "128x128", "type": "image/png"}
+  ],
+  "display": "standalone",
+  "start_url": "/"
+}
