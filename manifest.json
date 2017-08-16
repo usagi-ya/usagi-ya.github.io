@@ -3,8 +3,10 @@
   "name": "USAGI-YA",
   "short_name": "USAGI-YA",
   "icons": [
-    {"src": "./images/apple-touch-icon.png", "sizes": "128x128", "type": "image/png"}
+    {"src": "./homescreen144.png", "sizes": "144x144", "type": "image/png"},
+    {"src": "./apple-touch-icon.png", "sizes": "128x128", "type": "image/png"}
   ],
   "display": "standalone",
-  "start_url": "/"
+  "start_url": "/",
+  "theme_color": "red"
 }
