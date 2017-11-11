@@ -2,11 +2,21 @@
   "lang": "ja",
   "name": "USAGI-YA",
   "short_name": "USAGI-YA",
+  "description": "Otto milioni di dèi",
   "icons": [
-    {"src": "./homescreen144.png", "sizes": "144x144", "type": "image/png"},
-    {"src": "./apple-touch-icon.png", "sizes": "128x128", "type": "image/png"}
+    {
+      "src": "./homescreen144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "./apple-touch-icon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
   ],
   "display": "standalone",
   "start_url": "/",
-  "theme_color": "red"
+  "theme_color": "#e597b2",
+  "background_color": "#ebf6f7"
 }
