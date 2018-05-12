@@ -52,7 +52,7 @@ h2#footer {
     bottom: 0;
     left: 0;
     padding: 10px 0;
-    background-color: rgba( 215, 0, 53, 0.55 );
+    background-color: rgba( 240, 128, 128, 0.55 );
     color: #ffffff;
     width: 100%;
     font-size: 12px;
@@ -83,18 +83,18 @@ h2#footer {
 #stage1 {
     background-size: cover;
     background-position: center;
-    background-image: url("../images/bg_001.jpg")
+    background-image: url("../images/bg_004.jpg")
 }
 #stage2 {
     background-size: cover;
     background-position: center;
-    background-image: url("../images/bg_002.jpg")
+    background-image: url("../images/bg_005.jpg")
 }
-#stage3 {
+/*#stage3 {
     background-size: cover;
     background-position: center;
     background-image: url("../images/bg_003.jpg")
-}
+}*/
 
 
 
