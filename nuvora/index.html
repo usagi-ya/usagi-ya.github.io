@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>NUVORA</title>
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app" aria-label="NUVORA Timer">
+    <section class="timer-shell" id="timer-shell" data-state="WAITING">
+      <div class="water" aria-hidden="true">
+        <div class="surface" aria-hidden="true"></div>
+      </div>
+      <div class="content">
+        <p class="state-label" id="state-label">WAITING</p>
+        <h1 class="time" id="time-display">1:00</h1>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Timer Controls">
+      <div class="time-select" role="group" aria-label="Duration">
+        <button type="button" class="time-btn active" data-duration="60" aria-pressed="true">1 MIN</button>
+        <button type="button" class="time-btn" data-duration="180" aria-pressed="false">3 MIN</button>
+      </div>
+
+      <div class="action-row" role="group" aria-label="Actions">
+        <button type="button" class="action-btn primary" id="start-stop-btn">START</button>
+        <button type="button" class="action-btn" id="reset-btn">RESET</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
